@@ -1,0 +1,63 @@
+.background{
+    background: linear-gradient(
+        to right,
+        #F7F4E1 83%,#395C63 17%
+    );
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.nature {
+    position: absolute;
+    top: 200px;
+    right: 150px; 
+    height: 550px;
+    max-width: 40%;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color:#223c3f;
+    object-fit: cover;
+}
+
+
+}
+.natd{
+    width: 77px;
+}
+.welcom{
+    font-family: Cairo;
+     text-align: center;
+    
+    font-size: 37px;
+    
+    
+    color:#223c3f;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.lab1{
+    font-family: Cairo;
+    text-align: center;
+    
+    font-size: 28px;
+    
+    
+    color:#9c4141;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.info{
+    position: absolute;
+    left: 50px;
+    bottom: 200px;
+    font-size: 28px;
+    font-family: cambria;
+}
+.n{
+    color:#275d2b;
+}
